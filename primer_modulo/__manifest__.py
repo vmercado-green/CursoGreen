@@ -2,6 +2,7 @@
 {
     'name': 'Primer Modulo En Odoo.sh',
     'version': '1',
+    'summary':'Hola Mundo',
     'description': 'Hola Mundo',
     'category': 'Account',
     'author': 'GREEN-VICTOR MERCADO',
