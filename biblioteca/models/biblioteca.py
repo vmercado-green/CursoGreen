@@ -12,7 +12,7 @@ class Biblioteca (models.Model):
     editorial = fields.Char(string='Editorial', required=True)
     año_edicion = fields.Char(string='Año Edicion', required=True)
     genero = fields.Selection(string='Tipo De Barco',
-                                     selection[('1', 'Aventuras'),
+                                     selection=[('1', 'Aventuras'),
                                      ('2', 'Ciencia ficción'),
                                      ('3', 'Los cuentos de hadas'),
                                      ('4', 'La novela gótica'),
@@ -20,5 +20,5 @@ class Biblioteca (models.Model):
                                      ('6', 'El romance paranormal'),
                                      ('7', 'La novela distópica'),
                                      ('8', 'La novela fantástica')],
-                                     copy=False)
+                                     copy=False, required=True)
     active = fields.Boolean(string='Active', default=True)

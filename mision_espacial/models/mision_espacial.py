@@ -16,7 +16,7 @@ class Mision_Espacial (models.Model):
                              ('4', 'sólidos  ')],
                              copy=False, required=True)
     Tipo_De_Barco = fields.Selection(string='Tipo De Barco',
-                                    selection[('1', 'Nave espacial sobrevuelo'),
+                                    selection=[('1', 'Nave espacial sobrevuelo'),
                                     ('2', 'Nave espacial Orbiter'),
                                     ('3', 'Nave espacial Atmosférica'),
                                     ('4', 'Lander'),
@@ -24,7 +24,7 @@ class Mision_Espacial (models.Model):
                                     ('6', 'Nave espacial Penetradora'),
                                     ('7', 'Nave espacial Observatorio'),
                                     ('8', 'Nave espacial de comunicaciones')],
-                                    copy=False )
+                                    copy=False , required=True)
     Numero_De_Pasajeros = fields.Integer(string='Numero De Pasajero', required=True)
 
     active = fields.Boolean(string='Active', default=True)
