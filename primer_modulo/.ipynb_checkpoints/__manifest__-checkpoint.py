@@ -7,7 +7,6 @@
     'author': 'GREEN-VICTOR MERCADO',
     'website':'https://www.greenapplic.com/',
     'license': 'AGPL-3',
-    'depends': ['base'],
     'installable': True,
     'auto_install': False
 }
