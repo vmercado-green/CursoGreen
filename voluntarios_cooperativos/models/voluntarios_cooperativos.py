@@ -12,7 +12,7 @@ class Voluntarios_Cooperativos (models.Model):
                               selection[('1', 'Tarea 1'),
                               ('2', 'Tarea 2'),
                               ('3', 'Tarea 3')],
-                              copy=False , required=True)
+                              copy=False )
     tiempo_inicio = fields.Float(string='Tiempo Inicio', compute="_compute_time")
     tiempo_final = fields.Float(string='Tiempo Final', compute="_compute_time")
     active = fields.Boolean(string='Active', default=True)

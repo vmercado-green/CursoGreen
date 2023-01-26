@@ -20,5 +20,5 @@ class Biblioteca (models.Model):
                                      ('6', 'El romance paranormal'),
                                      ('7', 'La novela distópica'),
                                      ('8', 'La novela fantástica')],
-                                     copy=False, required=True)
+                                     copy=False)
     active = fields.Boolean(string='Active', default=True)

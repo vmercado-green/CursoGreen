@@ -24,7 +24,7 @@ class Mision_Espacial (models.Model):
                                     ('6', 'Nave espacial Penetradora'),
                                     ('7', 'Nave espacial Observatorio'),
                                     ('8', 'Nave espacial de comunicaciones')],
-                                    copy=False , required=True)
+                                    copy=False )
     Numero_De_Pasajeros = fields.Integer(string='Numero De Pasajero', required=True)
 
     active = fields.Boolean(string='Active', default=True)
