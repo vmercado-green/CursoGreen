@@ -2,7 +2,7 @@
 {
     
     'name': ' Misión Espacial de Odoo',
-    'version': '1',description
+    'version': '1',
     'summary': 'Módulo que planifique y ayude a Odoo a llegar a la Luna',
     'description': 'Odoo Inc. está intentando visitar la Luna. Necesitan tu ayuda para crear una Aplicación para organizar la logística. Esto incluye la nave espacial y la tripulación',
     'category': 'Account',
