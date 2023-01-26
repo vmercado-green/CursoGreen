@@ -4,9 +4,10 @@
     'version': '1',
     'description': 'módulo que organice a los voluntarios y la tienda',
     'summary':'Una organización sin ánimo de lucro necesita su ayuda. Les gustaría utilizar Odoo para organizar el trabajo de sus voluntarios. Dirigen una tienda cooperativa que vende productos locales',
-    'category': 'Uncategorized',
+    'category': 'Account',
     'author': 'GREEN-VICTOR MERCADO',
     'website':'https://www.greenapplic.com/',
+    'depends': ['base'],
     'license': 'AGPL-3',
     
     'installable': True,
