@@ -10,7 +10,10 @@
     'website':'https://www.greenapplic.com/',
     'license': 'AGPL-3',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/mision_espacial_security.xml',
+        'security/ir.model.access.csv',
+    ],
     'demo': ['demo/nave_demo.xml',],
     'installable': True,
     'auto_install': False

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_curso_admin" model="res.groups">
+        <fiels name="name"> Curso  / Admin</fiels>
+    </record>
+
+    <record id="only_active_modify" model="ir.rule">
+        <fiels name="name"> Only Active Course Can Be Modified</fiels>
+        <fiels name="perm_read" eval="0"> </fiels>
+        <fiels name="perm_write" eval="1"> </fiels>
+        <fiels name="perm_create" eval="0"> </fiels>
+        <fiels name="perm_unlink" eval="1"> </fiels>
+        <fiels name="domain_force" >[('active','=',True)] </fiels>
+        <fiels name="model_id" ref="model_curso_odoo"/>
+    </record>
+</odoo>
