@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="curso.odoo" id="erp_101">
+            <field name="name" >ERP 101</field>
+            <field name="description" >Learn ERP Systems</field>
+            <field name="level" >3</field>
+        </record>
+        <record model="curso.odoo" id="accounting_200">
+            <field name="name" >Accounting 200</field>
+            <field name="description" >Accounting 200:
+            Intermediate Accounting Course
+            Learning about Cost Accounting and pricing and Revenue Analysis</field>
+            <field name="level">2</field>
+        </record>
+        <record model="curso.odoo" id="website_500">
+            <field name="name" >Web Site 500</field>
+            <field name="description" ></field>
+            <field name="level" >3</field>
+        </record>
+    </data>
+</odoo>

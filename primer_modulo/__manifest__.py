@@ -9,6 +9,7 @@
     'website':'https://www.greenapplic.com/',
     'license': 'AGPL-3',
     'depends': ['base'],
+    'demo': ['demo/curso_demo.xml'],
     'installable': True,
     'auto_install': False
 }
