@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
+    <data>
         <record id="group_biblioteca_bibliotecario" model="res.groups">
             <fiels name="name"> Biblioteca  / Bibliotecario </fiels>
         </record>
