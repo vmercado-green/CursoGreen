@@ -13,7 +13,9 @@
         'security/biblioteca_security.xml',
         'security/ir.model.access.csv',
     ],
-    'demo': ['demo/libro_demo.xml',],
+    'demo': [
+        'demo/libro_demo.xml',
+    ],
     'installable': True,
     'auto_install': False
 }
