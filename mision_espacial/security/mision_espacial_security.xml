@@ -14,10 +14,10 @@
 
     <record id="only_active_modify" model="ir.rule">
         <fiels name="name"> Only Active Course Can Be Modified</fiels>
-        <fiels name="perm_read" eval="0"> </fiels>
-        <fiels name="perm_write" eval="1"> </fiels>
-        <fiels name="perm_create" eval="0"> </fiels>
-        <fiels name="perm_unlink" eval="1"> </fiels>
+        <fiels name="perm_read" eval="0"/>
+        <fiels name="perm_write" eval="1"/>
+        <fiels name="perm_create" eval="0"/>
+        <fiels name="perm_unlink" eval="1"/>
         <fiels name="domain_force" >[('active','=',True)] </fiels>
         <fiels name="model_id" ref="model_mision_espacial"/>
     </record>
