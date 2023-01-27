@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="voluntarios.cooperativos" id="1">
+            <field name="name" >Tarea 1</field>
+            <field name="description" >Tarea 1</field>
+            <field name="level" >1</field>
+            <field name="tiempo_inicio">12:00</field>
+            <field name="tiempo_final" >13:00</field>
+        </record>
+        <record model="voluntarios.cooperativos" id="2">
+            <field name="name" >Tarea 2</field>
+            <field name="description" >Tarea 2</field>
+            <field name="level" >1</field>
+            <field name="tiempo_inicio">13:30</field>
+            <field name="tiempo_final" >15:00</field>
+        </record>
+        <record model="voluntarios.cooperativos" id="3">
+            <field name="name" >Tarea 3</field>
+            <field name="description" >Tarea 3</field>
+            <field name="level" >2</field>
+            <field name="tiempo_inicio">14:00</field>
+            <field name="tiempo_final" >15:30</field>
+        </record>
+        <record model="voluntarios.cooperativos" id="4">
+            <field name="name" >Tarea 4</field>
+            <field name="description" >Tarea 4</field>
+            <field name="level" >3</field>
+            <field name="tiempo_inicio">15:30</field>
+            <field name="tiempo_final" >16:30</field>
+        </record>
+    </data>
+</odoo>
