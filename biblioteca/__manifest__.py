@@ -9,7 +9,10 @@
     'website':'https://www.greenapplic.com/',
     'license': 'AGPL-3',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/biblioteca_security.xml',
+        'security/ir.model.access.csv',
+    ],
     'demo': ['demo/libro_demo.xml',],
     'installable': True,
     'auto_install': False

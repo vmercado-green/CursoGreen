@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="group_curso_admin" model="res.groups">
-        <fiels name="name"> Curso  / Admin</fiels>
+    <record id="group_curso_odoo_admin" model="res.groups">
+        <fiels name="name"> Curso  Odoo/ Admin</fiels>
     </record>
 
     <record id="only_active_modify" model="ir.rule">
