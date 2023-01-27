@@ -2,6 +2,5 @@
 <odoo>
     <record id="group_curso_admin" model="res.groups">
         <fiels name="name"> Curso  / Admin</fiels>
-
     </record>
 </odoo>
