@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="group_biblioteca_bibliotecario" model="res.groups">
+    <record id="group_biblioteca" model="res.groups">
         <fiels name="name"> Biblioteca  / Bibliotecario </fiels>
-    </record>
-
-    <record id="group_biblioteca_cliente" model="res.groups">
-        <fiels name="name"> Biblioteca  / Cliente </fiels>
     </record>
 
     <record id="only_active_modify" model="ir.rule">
