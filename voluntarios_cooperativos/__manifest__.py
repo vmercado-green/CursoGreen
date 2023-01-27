@@ -9,7 +9,8 @@
     'website':'https://www.greenapplic.com/',
     'depends': ['base'],
     'license': 'AGPL-3',
-    
+    'data': [],
+    'demo': ['demo/tarea_demo.xml',],
     'installable': True,
     'auto_install': False
 }

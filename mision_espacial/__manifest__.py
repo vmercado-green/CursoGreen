@@ -10,6 +10,8 @@
     'website':'https://www.greenapplic.com/',
     'license': 'AGPL-3',
     'depends': ['base'],
+    'data': [],
+    'demo': ['demo/nave_demo.xml',],
     'installable': True,
     'auto_install': False
 }

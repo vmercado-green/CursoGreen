@@ -7,6 +7,7 @@ class Biblioteca (models.Model):
     _description = 'Módulo que gestionará muchos aspectos de la Biblioteca'
 
     name = fields.Char(string='Title', required=True)
+    description = fields.Char(string='description', required=True)
     autor = fields.Char(string='Autor', required=True)
     editor = fields.Char(string='Editor', required=True)
     editorial = fields.Char(string='Editorial', required=True)
