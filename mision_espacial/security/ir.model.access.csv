@@ -1,5 +1,5 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
-mision_espacial_nave_admin,mision espacial->nave admin,model_mision_espacial_nave,group_mision_espacial_admin,1,1,1,1
+mision_espacial_nave_admin,mision espacial->nave admin,model_mision_espacial_nave,group_mision_espacial_nave_admin,1,1,1,1
 mision_espacial_nave_tripulacion,mision espacial->nave tripulacion,model_mision_espacial_nave,group_mision_espacial_nave_tripulacion,1,1,1,0
 mision_espacial_nave_general,mision espacial->nave general,model_mision_espacial_nave,group_mision_espacial_nave_general,1,0,0,0
 mision_espacial_nave_all,mision espacial->nave listar todo,model_mision_espacial_nave,,1,0,0,0
