@@ -18,3 +18,4 @@
         <field name="model_id" ref="model_biblioteca"/>
     </record>
 </odoo>
+

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="group_mision_espacial_admin" model="res.groups">
-        <fiels name="name"> Mision Espacial  / Admin</fiels>
+        <field name="name">Mision Espacial  / Admininistrador</field>
     </record>
 
     <record id="group_mision_espacial_tripulacion" model="res.groups">
-        <fiels name="name"> Mision Espacial  / Tripulacion Espacial</fiels>
+        <field name="name">Mision Espacial  / Tripulacion Espacia</field>
     </record>
 
     <record id="group_mision_espacial_general" model="res.groups">
-        <fiels name="name"> Mision Espacial  / General</fiels>
+        <field name="name">Mision Espacial  / General</field>
     </record>
 
-    <record id="only_active_modify" model="ir.rule">
-        <fiels name="name"> Only Active Course Can Be Modified</fiels>
-        <fiels name="perm_read" eval="0"/>
-        <fiels name="perm_write" eval="1"/>
-        <fiels name="perm_create" eval="0"/>
-        <fiels name="perm_unlink" eval="1"/>
-        <fiels name="domain_force" >[('active','=',True)] </fiels>
-        <fiels name="model_id" ref="model_mision_espacial"/>
+    <record id="mision_espacial_actualizar" model="ir.rule">
+        <field name="name">Solo se puede actualizar la bmision_espacial activas</field>
+        <field name="perm_read" eval="0"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">[('active','=',True)]</field>
+        <field name="model_id" ref="model_mision_espacial"/>
     </record>
 </odoo>
