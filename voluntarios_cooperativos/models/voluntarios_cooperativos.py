@@ -4,7 +4,7 @@ from odoo import models,fields,api
 
 class Voluntarios_Cooperativos (models.Model):
     _name = 'voluntarios_cooperativos'
-    _description = 'voluntarios_cooperativos Info'
+    _description = 'voluntarios cooperativos Info'
 
     name = fields.Char(string='Title', required=True)
     description = fields.Char(string='Description', required=True)

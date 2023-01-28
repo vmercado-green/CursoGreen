@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="group_academy_admin" model="res.groups">
-        <field name="name">Academy / Admin</field>
+    <record id="group_curso_odoo_admin" model="res.groups">
+        <field name="name">Curso Odoo / Administrador</field>
     </record>
 
-    <record id="only_active_modify" model="ir.rule">
-        <field name="name">Only Active Course Can Be Modified</field>
+    <record id="curso_activo_actualizar" model="ir.rule">
+        <field name="name">Solo se puede actualizar el curso activo</field>
         <field name="perm_read" eval="0"/>
         <field name="perm_write" eval="1"/>
         <field name="perm_create" eval="0"/>
