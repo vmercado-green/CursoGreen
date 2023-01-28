@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="mision_espacial_nave_list_action" model="ir.actions.act_window">
+            <field name="name">Mision Espacial/Nave</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">mision.espacial.nave</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_smiling_face">
+                    Haga Clic Para Crear Una Nueva Nave.
+                </p>
+            </field>
+        </record>
+        <menuitem name="Mision Espacial" id="menu_mision_espacial" sequence="1" />
+        <menuitem id="menu_mision_espacial_sub" name="Mision Espacial" parent="menu_mision_espacial" sequence="2"/>
+        <menuitem id="menu_mision_espacial_nave" name="Nave" parent="menu_mision_espacial_sub" sequence="3"
+        action="mision_espacial_nave_list_action"/>
+    </data>
+</odoo>

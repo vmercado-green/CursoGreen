@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="curso_odoo_list_action" model="ir.actions.act_window">
+            <field name="name">Curso Odoo</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">curso.odoo</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_smiling_face">
+                    Haga Clic Para Crear Un Nuevo Curso De Odoo.
+                </p>
+            </field>
+        </record>
+        <menuitem name="Primer Modulo" id="menu_primer_modulo" sequence="1" />
+        <menuitem id="menu_primer_modulo_sub" name="Primer Modulo" parent="menu_primer_modulo" sequence="2"/>
+        <menuitem id="menu_curso_odoo" name="Curso Odoo" parent="menu_primer_modulo_sub" sequence="3"
+        action="curso_odoo_list_action"/>
+    </data>
+</odoo>
