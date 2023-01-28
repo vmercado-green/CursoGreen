@@ -13,6 +13,7 @@
     'data': [
             'security/mision_espacial_security.xml',
             'security/ir.model.access.csv',
+            'views/mision_espacial_menuitems.xml',
         ],
     'demo': ['demo/nave_demo.xml',],
     'installable': True,

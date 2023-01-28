@@ -2,8 +2,8 @@
 
 from odoo import models,fields,api
 
-class Mision_Espacial (models.Model):
-    _name = 'mision.espacial'
+class Mision_Espacial_Nave (models.Model):
+    _name = 'mision.espacial.nave'
     _description = 'Mision_Espacial Info'
 
     name = fields.Char(string='Title', required=True)

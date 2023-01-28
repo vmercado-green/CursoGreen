@@ -19,13 +19,13 @@
         <field name="category_id" ref="mision_espacial.mision_espacial_category"/>
     </record>
 
-    <record id="mision_espacial_actualizar" model="ir.rule">
-        <field name="name">Solo se puede actualizar la bmision_espacial activas</field>
+    <record id="misionespacial_nave_actualizar" model="ir.rule">
+        <field name="name">Solo se puede actualizar la nave activas</field>
         <field name="perm_read" eval="0"/>
         <field name="perm_write" eval="1"/>
         <field name="perm_create" eval="0"/>
         <field name="perm_unlink" eval="1"/>
         <field name="domain_force">[('active','=',True)]</field>
-        <field name="model_id" ref="model_mision_espacial"/>
+        <field name="model_id" ref="model_mision_espacial_nave"/>
     </record>
 </odoo>

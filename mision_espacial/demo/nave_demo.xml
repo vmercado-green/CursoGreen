@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-        <record model="mision.espacial" id="nave_1">
+        <record model="mision.espacial.nave" id="nave_1">
             <field name="name" >Nave 1 Hercules</field>
             <field name="dimensiones_del_barco" >100</field>
             <field name="combustibles" >1</field>
             <field name="Tipo_De_Barco" >1</field>
             <field name="Numero_De_Pasajeros" >10</field>
         </record>
-        <record model="mision.espacial" id="nave_2">
+        <record model="mision.espacial.nave" id="nave_2">
             <field name="name" >Nave 2 Hercules</field>
             <field name="dimensiones_del_barco" >100</field>
             <field name="combustibles" >2</field>
             <field name="Tipo_De_Barco" >1</field>
             <field name="Numero_De_Pasajeros" >12</field>
         </record>
-        <record model="mision.espacial" id="nave_3">
+        <record model="mision.espacial.nave" id="nave_3">
             <field name="name" >Nave 1 Poseidon</field>
             <field name="dimensiones_del_barco" >1000</field>
             <field name="combustibles" >3</field>
             <field name="Tipo_De_Barco" >2</field>
             <field name="Numero_De_Pasajeros" >25</field>
         </record>
-        <record model="mision.espacial" id="nave_4">
+        <record model="mision.espacial.nave" id="nave_4">
             <field name="name" >Nave 2 Poseidon</field>
             <field name="dimensiones_del_barco" >1000</field>
             <field name="combustibles" >3</field>
             <field name="Tipo_De_Barco" >2</field>
             <field name="Numero_De_Pasajeros" >30</field>
         </record>
-        <record model="mision.espacial" id="nave_5">
+        <record model="mision.espacial.nave" id="nave_5">
             <field name="name" >Nave 1 Thor</field>
             <field name="dimensiones_del_barco" >10000</field>
             <field name="combustibles" >4</field>
             <field name="Tipo_De_Barco" >3</field>
             <field name="Numero_De_Pasajeros" >100</field>
         </record>
-        <record model="mision.espacial" id="nave_6">
+        <record model="mision.espacial.nave" id="nave_6">
             <field name="name" >Nave 2 Thor</field>
             <field name="dimensiones_del_barco" >10000</field>
             <field name="combustibles" >4</field>

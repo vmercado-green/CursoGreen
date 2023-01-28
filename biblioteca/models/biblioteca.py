@@ -3,7 +3,7 @@
 from odoo import models,fields,api
 
 class Biblioteca (models.Model):
-    _name = 'biblioteca'
+    _name = 'biblioteca.libro'
     _description = 'Módulo que gestionará muchos aspectos de la Biblioteca'
 
     name = fields.Char(string='Title', required=True)

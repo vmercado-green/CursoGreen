@@ -12,6 +12,7 @@
     'data': [
         'security/curso_security.xml',
         'security/ir.model.access.csv',
+        'views/curso_menuitems.xml',
     ],
     'demo': [
         'demo/curso_demo.xml',

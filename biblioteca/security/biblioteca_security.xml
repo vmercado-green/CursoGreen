@@ -4,24 +4,24 @@
         <field name="name">Primer Modulo</field>
         <field name="sequence">1</field>
     </record>
-    <record id="group_biblioteca_bibliotecario" model="res.groups">
-        <field name="name">Biblioteca  / Bibliotecario</field>
+    <record id="group_biblioteca_libro_bibliotecario" model="res.groups">
+        <field name="name">Biblioteca->Libro  / Bibliotecario</field>
         <field name="category_id" ref="biblioteca.biblioteca_category"/>
     </record>
 
-    <record id="group_biblioteca_cliente" model="res.groups">
-        <field name="name">Biblioteca  / Cliente</field>
+    <record id="group_biblioteca_libro_cliente" model="res.groups">
+        <field name="name">Biblioteca->Libro  / Cliente</field>
         <field name="category_id" ref="biblioteca.biblioteca_category"/>
     </record>
 
-    <record id="biblioteca_actualizar" model="ir.rule">
+    <record id="biblioteca_libro_actualizar" model="ir.rule">
         <field name="name">Solo se puede actualizar la biblioteca/libro activos</field>
         <field name="perm_read" eval="0"/>
         <field name="perm_write" eval="1"/>
         <field name="perm_create" eval="0"/>
         <field name="perm_unlink" eval="1"/>
         <field name="domain_force">[('active','=',True)]</field>
-        <field name="model_id" ref="model_biblioteca"/>
+        <field name="model_id" ref="model_biblioteca_libro"/>
     </record>
 </odoo>
 

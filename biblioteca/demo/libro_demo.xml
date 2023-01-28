@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-        <record model="biblioteca" id="1">
+        <record model="biblioteca.libro" id="1">
             <field name="name" >Libro 1</field>
             <field name="description" >Libro 1</field>
             <field name="autor" >VICTOR MERCADO</field>
@@ -10,7 +10,7 @@
             <field name="año_edicion" >1994</field>
             <field name="genero" >1</field>
         </record>
-        <record model="biblioteca" id="2">
+        <record model="biblioteca.libro" id="2">
             <field name="name" >Libro 2</field>
             <field name="description" >Libro 2</field>
             <field name="autor" >VICTOR MERCADO</field>
@@ -19,7 +19,7 @@
             <field name="año_edicion" >2004</field>
             <field name="genero" >2</field>
         </record>
-        <record model="biblioteca" id="3">
+        <record model="biblioteca.libro" id="3">
             <field name="name" >Libro 3</field>
             <field name="description" >Libro 3</field>
             <field name="autor" >CARMEN MERCADO</field>
@@ -28,7 +28,7 @@
             <field name="año_edicion" >2014</field>
             <field name="genero" >3</field>
         </record>
-        <record model="biblioteca" id="4">
+        <record model="biblioteca.libro" id="4">
             <field name="name" >Libro 4</field>
             <field name="description" >Libro 4</field>
             <field name="autor" >MABRIDIS JIMENEZ</field>
@@ -37,7 +37,7 @@
             <field name="año_edicion" >2018</field>
             <field name="genero" >4</field>
         </record>
-        <record model="biblioteca" id="5">
+        <record model="biblioteca.libro" id="5">
             <field name="name" >Libro 5</field>
             <field name="description" >Libro 5</field>
             <field name="autor" >CANDELARIA CERVANTES</field>
