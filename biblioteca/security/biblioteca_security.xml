@@ -2,6 +2,7 @@
 <odoo>
     <record id="group_biblioteca_bibliotecario" model="res.groups">
         <fiels name="name"> Biblioteca  / Bibliotecario </fiels>
+    </record>
 
     <record id="biblioteca_actualizar" model="ir.rule">
         <field name="name">Solo se puede actualizar la biblioteca/libro activos</field>
