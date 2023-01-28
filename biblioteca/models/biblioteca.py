@@ -11,7 +11,7 @@ class Biblioteca (models.Model):
     autor = fields.Char(string='Autor', required=True)
     editor = fields.Char(string='Editor', required=True)
     editorial = fields.Char(string='Editorial', required=True)
-    year_edicion = fields.integer(string='Año Edicion', required=True)
+    year_edicion = fields.Integer(string='Año Edicion', required=True)
     genero = fields.Selection(string='Tipo De Barco',
                                      selection=[('1', 'Aventuras'),
                                      ('2', 'Ciencia ficción'),
