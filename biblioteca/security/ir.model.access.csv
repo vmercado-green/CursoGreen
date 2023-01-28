@@ -1,0 +1,4 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+biblioteca_libro_bibliotecario,biblioteca/libro bibliotecario,model_biblioteca_libro,group_biblioteca_libro_bibliotecario,1,1,1,1
+biblioteca_libro_cliente,biblioteca/libro cliente,model_biblioteca_libro,group_biblioteca_libro_cliente,1,0,0,0
+biblioteca_libro_all,biblioteca->libor listar todo,model_biblioteca_libro,,1,0,0,0
