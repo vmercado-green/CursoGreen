@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="group_biblioteca" model="res.groups">
+    <record id="group_biblioteca_bibliotecario" model="res.groups">
         <fiels name="name"> Biblioteca  / Bibliotecario </fiels>
 
-    <record id="only_active_modify" model="ir.rule">
-        <fiels name="name"> Only Active Course Can Be Modified</fiels>
-        <fiels name="perm_read" eval="0"/>
-        <fiels name="perm_write" eval="1"/>
-        <fiels name="perm_create" eval="0"/>
-        <fiels name="perm_unlink" eval="1"/>
-        <fiels name="domain_force" >[('active', '=', True)] </fiels>
-        <fiels name="model_id" ref="model_biblioteca"/>
+    <record id="biblioteca_actualizar" model="ir.rule">
+        <field name="name">Solo se puede actualizar la biblioteca/libro activos</field>
+        <field name="perm_read" eval="0"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">[('active','=',True)]</field>
+        <field name="model_id" ref="model_curso_odoo"/>
     </record>
 </odoo>
+

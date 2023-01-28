@@ -4,7 +4,7 @@
         <field name="name">Curso Odoo / Administrador</field>
     </record>
 
-    <record id="curso_activo_actualizar" model="ir.rule">
+    <record id="curso_actualizar" model="ir.rule">
         <field name="name">Solo se puede actualizar el curso activo</field>
         <field name="perm_read" eval="0"/>
         <field name="perm_write" eval="1"/>
