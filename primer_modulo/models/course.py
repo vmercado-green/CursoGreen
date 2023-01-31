@@ -8,10 +8,10 @@ class Course (models.Model):
 
     name = fields.Char(string='Title',required=True)
     description=fields.Text (string= 'Description')
-
     level = fields.Selection (string='Level',
                               selection=[('1','Beginner'),
                               ('2','Intermediate'),
                               ('3','Advanced')],
                               copy=False)
     active = fields.Boolean(string='Active', default=True)
+    base_price= fields.Float(string="Base Prince", default=0.00)
