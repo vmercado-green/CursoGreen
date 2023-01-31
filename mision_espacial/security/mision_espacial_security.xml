@@ -4,6 +4,17 @@
         <field name="name">Mision Espacial</field>
         <field name="sequence">1</field>
     </record>
+    <record id="group_mision_espacial_nave_admin" model="res.groups">
+        <field name="name">Mision Espacial  / Admininistrador</field>
+    </record>
+
+    <record id="group_mision_espacial_nave_tripulacion" model="res.groups">
+        <field name="name">Mision Espacial  / Tripulacion Espacia</field>
+    </record>
+
+    <record id="group_mision_espacial_nave_general" model="res.groups">
+        <field name="name">Mision Espacial  / General</field>
+    </record>
 
     <record id="mision_espacial_nave_actualizar" model="ir.rule">
         <field name="name">Solo se puede actualizar la nave activas</field>
