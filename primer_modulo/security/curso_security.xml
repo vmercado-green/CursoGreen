@@ -9,7 +9,7 @@
         <field name="name">Curso Odoo / Administrador</field>
         <field name="category_id" ref="primer_modulo.primer_modulo_category"/>
     </record>
-    <record id="group_curso_odoo_admin2" model="res.groups">
+    <record id="group_curso_odoo_admin" model="res.groups">
         <field name="name">Curso Odoo / Administrador2</field>
         <field name="category_id" ref="primer_modulo.primer_modulo_category"/>
     </record>
